@@ -121,12 +121,12 @@ h2 {
 .main-comparison-list > .comparison-card + .comparison-card { padding-top: 1.25rem; border-top: 1px solid var(--border); }
 .people-group { border-bottom: 1px solid var(--border); }
 .people-group > summary { cursor: pointer; padding: 1rem 0.25rem; font-size: 1.1rem; font-weight: 600; }
-.people-group[data-people="7"] > summary > span:first-child {
+#comparison-list .people-group[data-people="7"] > summary > span:first-child {
   display: inline-block;
   color: #8542b5;
 }
 @supports (background-clip: text) or (-webkit-background-clip: text) {
-  .people-group[data-people="7"] > summary > span:first-child {
+  #comparison-list .people-group[data-people="7"] > summary > span:first-child {
     background: linear-gradient(100deg, #d63c6a 0%, #d05c22 17%, #a77b16 33%, #248765 50%, #3175c7 67%, #7451c8 83%, #b74797 100%);
     -webkit-background-clip: text;
     background-clip: text;
@@ -135,7 +135,7 @@ h2 {
   }
 }
 @media print, (forced-colors: active) {
-  .people-group[data-people="7"] > summary > span:first-child {
+  #comparison-list .people-group[data-people="7"] > summary > span:first-child {
     background: none;
     color: var(--fg);
     -webkit-text-fill-color: currentColor;

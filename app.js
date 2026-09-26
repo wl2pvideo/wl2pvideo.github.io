@@ -38,7 +38,7 @@
 
   function makeExampleLabel(sample) {
     const row = element('div', 'example-row');
-    row.append(element('span', 'example-number', `Ex ${Number(sample.id.slice(8))}`));
+    row.append(element('span', 'example-number', sample.exampleLabel || `Ex ${Number(sample.id.slice(8))}`));
     return row;
   }
 
@@ -355,8 +355,8 @@
     const scroll = element('div', 'media-scroll');
     const grid = element('div', 'media-grid');
     // SCAIL landscape comparisons use a centered 3+4 layout.
-    const keys = teaser ? ['reference', 'driving', 'ours']
-      : core.panelKeys(sample, 'all', data.modelOrder);
+    const keys = sample.panelKeys || (teaser ? ['reference', 'driving', 'ours']
+      : core.panelKeys(sample, 'all', data.modelOrder));
     const staggered = !teaser && sample.layout === 'landscape' && keys.includes('scail') && keys.length === 7;
     if (staggered) card.dataset.comparisonLayout = '3+4';
     grid.style.setProperty('--columns', keys.length);
@@ -364,7 +364,8 @@
     const panels = [];
     for (const key of keys) {
       const asset = sample.media[key];
-      const label = key === 'reference' ? 'Reference image' : key === 'driving' ? 'Driving video' : data.models[key];
+      const label = key === 'reference' ? 'Reference image' : key === 'driving' ? 'Driving video'
+        : key === 'gt' ? 'GT video' : data.models[key];
       const panel = element('figure', `media-panel ${key === 'ours' ? 'ours' : ''}`);
       const caption = element('figcaption', 'panel-label', label);
       const stage = element('button', 'media-stage');
@@ -465,6 +466,15 @@
     baselineSection.ontoggle = () => {
       if (!baselineSection.open) baselineCards.forEach(card => cardControllers.get(card)?.pause());
     };
+    // MotionTwin dataset pairs: GT and driving videos, grouped by the number of people.
+    const datasetSamples = (data.datasetSamples || []).map(sample => ({...sample,
+      panelKeys: ['gt', 'driving'], exampleLabel: `Sample ${Number(sample.id.slice(-2))}`}));
+    const peopleCounts = [...new Set(datasetSamples.map(sample => sample.people))].sort((a, b) => a - b);
+    const dataset = document.createDocumentFragment();
+    for (const people of peopleCounts) {
+      dataset.append(makePeopleGroup({people, samples: datasetSamples.filter(sample => sample.people === people)}));
+    }
+    document.querySelector('#dataset-list').replaceChildren(dataset);
   }
   document.addEventListener('visibilitychange', () => { if (document.hidden) pauseAll(); });
   window.addEventListener('pagehide', () => pauseAll());

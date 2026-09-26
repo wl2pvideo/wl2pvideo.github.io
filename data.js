@@ -1701,6 +1701,15 @@ window.SUPPLEMENT_DATA = {
           "frameCount": 81,
           "poster": "assets/posters/4-people/example-72_4-people_wan-animate-2_poster.jpg"
         },
+        "scail": {
+          "src": "assets/media/4-people/example-72_4-people_scail.mp4",
+          "width": 832,
+          "height": 480,
+          "duration": 5.0625,
+          "fps": 16,
+          "frameCount": 81,
+          "poster": "assets/posters/4-people/example-72_4-people_scail_poster.jpg"
+        },
         "scail2": {
           "src": "assets/media/4-people/example-72_4-people_scail2.mp4",
           "width": 832,
@@ -2156,6 +2165,883 @@ window.SUPPLEMENT_DATA = {
           "fps": 16,
           "frameCount": 81,
           "poster": "assets/posters/7-people/example-106_7-people_scail2_poster.jpg"
+        }
+      }
+    }
+  ],
+  "datasetSamples": [
+    {
+      "id": "motiontwin-1p-01",
+      "people": 1,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/1-person/motiontwin-1p-01_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 7.8667,
+          "fps": 30.0,
+          "frameCount": 236,
+          "poster": "assets/posters/dataset/1-person/motiontwin-1p-01_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/1-person/motiontwin-1p-01_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 7.8667,
+          "fps": 30.0,
+          "frameCount": 236,
+          "poster": "assets/posters/dataset/1-person/motiontwin-1p-01_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-1p-02",
+      "people": 1,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/1-person/motiontwin-1p-02_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 7.1,
+          "fps": 30.0,
+          "frameCount": 213,
+          "poster": "assets/posters/dataset/1-person/motiontwin-1p-02_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/1-person/motiontwin-1p-02_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 7.1,
+          "fps": 30.0,
+          "frameCount": 213,
+          "poster": "assets/posters/dataset/1-person/motiontwin-1p-02_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-1p-03",
+      "people": 1,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/1-person/motiontwin-1p-03_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 13.7333,
+          "fps": 30.0,
+          "frameCount": 412,
+          "poster": "assets/posters/dataset/1-person/motiontwin-1p-03_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/1-person/motiontwin-1p-03_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 13.7333,
+          "fps": 30.0,
+          "frameCount": 412,
+          "poster": "assets/posters/dataset/1-person/motiontwin-1p-03_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-1p-04",
+      "people": 1,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/1-person/motiontwin-1p-04_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 16.0,
+          "fps": 30.0,
+          "frameCount": 480,
+          "poster": "assets/posters/dataset/1-person/motiontwin-1p-04_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/1-person/motiontwin-1p-04_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 16.0,
+          "fps": 30.0,
+          "frameCount": 480,
+          "poster": "assets/posters/dataset/1-person/motiontwin-1p-04_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-1p-05",
+      "people": 1,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/1-person/motiontwin-1p-05_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 20.0,
+          "fps": 30.0,
+          "frameCount": 600,
+          "poster": "assets/posters/dataset/1-person/motiontwin-1p-05_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/1-person/motiontwin-1p-05_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 20.0,
+          "fps": 30.0,
+          "frameCount": 600,
+          "poster": "assets/posters/dataset/1-person/motiontwin-1p-05_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-2p-01",
+      "people": 2,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/2-people/motiontwin-2p-01_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 8.0,
+          "fps": 30.0,
+          "frameCount": 240,
+          "poster": "assets/posters/dataset/2-people/motiontwin-2p-01_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/2-people/motiontwin-2p-01_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 8.0,
+          "fps": 30.0,
+          "frameCount": 240,
+          "poster": "assets/posters/dataset/2-people/motiontwin-2p-01_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-2p-02",
+      "people": 2,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/2-people/motiontwin-2p-02_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 8.0,
+          "fps": 30.0,
+          "frameCount": 240,
+          "poster": "assets/posters/dataset/2-people/motiontwin-2p-02_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/2-people/motiontwin-2p-02_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 8.0,
+          "fps": 30.0,
+          "frameCount": 240,
+          "poster": "assets/posters/dataset/2-people/motiontwin-2p-02_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-2p-03",
+      "people": 2,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/2-people/motiontwin-2p-03_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 8.0,
+          "fps": 30.0,
+          "frameCount": 240,
+          "poster": "assets/posters/dataset/2-people/motiontwin-2p-03_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/2-people/motiontwin-2p-03_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 8.0,
+          "fps": 30.0,
+          "frameCount": 240,
+          "poster": "assets/posters/dataset/2-people/motiontwin-2p-03_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-2p-04",
+      "people": 2,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/2-people/motiontwin-2p-04_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 8.0,
+          "fps": 30.0,
+          "frameCount": 240,
+          "poster": "assets/posters/dataset/2-people/motiontwin-2p-04_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/2-people/motiontwin-2p-04_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 8.0,
+          "fps": 30.0,
+          "frameCount": 240,
+          "poster": "assets/posters/dataset/2-people/motiontwin-2p-04_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-2p-05",
+      "people": 2,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/2-people/motiontwin-2p-05_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 8.0,
+          "fps": 30.0,
+          "frameCount": 240,
+          "poster": "assets/posters/dataset/2-people/motiontwin-2p-05_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/2-people/motiontwin-2p-05_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 8.0,
+          "fps": 30.0,
+          "frameCount": 240,
+          "poster": "assets/posters/dataset/2-people/motiontwin-2p-05_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-3p-01",
+      "people": 3,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/3-people/motiontwin-3p-01_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/3-people/motiontwin-3p-01_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/3-people/motiontwin-3p-01_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/3-people/motiontwin-3p-01_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-3p-02",
+      "people": 3,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/3-people/motiontwin-3p-02_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/3-people/motiontwin-3p-02_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/3-people/motiontwin-3p-02_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/3-people/motiontwin-3p-02_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-3p-03",
+      "people": 3,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/3-people/motiontwin-3p-03_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/3-people/motiontwin-3p-03_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/3-people/motiontwin-3p-03_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/3-people/motiontwin-3p-03_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-3p-04",
+      "people": 3,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/3-people/motiontwin-3p-04_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/3-people/motiontwin-3p-04_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/3-people/motiontwin-3p-04_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/3-people/motiontwin-3p-04_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-3p-05",
+      "people": 3,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/3-people/motiontwin-3p-05_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/3-people/motiontwin-3p-05_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/3-people/motiontwin-3p-05_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/3-people/motiontwin-3p-05_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-4p-01",
+      "people": 4,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/4-people/motiontwin-4p-01_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/4-people/motiontwin-4p-01_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/4-people/motiontwin-4p-01_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/4-people/motiontwin-4p-01_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-4p-02",
+      "people": 4,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/4-people/motiontwin-4p-02_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/4-people/motiontwin-4p-02_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/4-people/motiontwin-4p-02_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/4-people/motiontwin-4p-02_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-4p-03",
+      "people": 4,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/4-people/motiontwin-4p-03_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/4-people/motiontwin-4p-03_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/4-people/motiontwin-4p-03_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/4-people/motiontwin-4p-03_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-4p-04",
+      "people": 4,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/4-people/motiontwin-4p-04_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/4-people/motiontwin-4p-04_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/4-people/motiontwin-4p-04_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/4-people/motiontwin-4p-04_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-4p-05",
+      "people": 4,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/4-people/motiontwin-4p-05_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/4-people/motiontwin-4p-05_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/4-people/motiontwin-4p-05_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/4-people/motiontwin-4p-05_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-5p-01",
+      "people": 5,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/5-people/motiontwin-5p-01_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/5-people/motiontwin-5p-01_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/5-people/motiontwin-5p-01_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/5-people/motiontwin-5p-01_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-5p-02",
+      "people": 5,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/5-people/motiontwin-5p-02_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/5-people/motiontwin-5p-02_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/5-people/motiontwin-5p-02_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/5-people/motiontwin-5p-02_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-5p-03",
+      "people": 5,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/5-people/motiontwin-5p-03_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/5-people/motiontwin-5p-03_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/5-people/motiontwin-5p-03_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/5-people/motiontwin-5p-03_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-5p-04",
+      "people": 5,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/5-people/motiontwin-5p-04_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/5-people/motiontwin-5p-04_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/5-people/motiontwin-5p-04_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/5-people/motiontwin-5p-04_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-5p-05",
+      "people": 5,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/5-people/motiontwin-5p-05_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/5-people/motiontwin-5p-05_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/5-people/motiontwin-5p-05_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/5-people/motiontwin-5p-05_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-6p-01",
+      "people": 6,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/6-people/motiontwin-6p-01_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/6-people/motiontwin-6p-01_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/6-people/motiontwin-6p-01_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/6-people/motiontwin-6p-01_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-6p-02",
+      "people": 6,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/6-people/motiontwin-6p-02_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/6-people/motiontwin-6p-02_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/6-people/motiontwin-6p-02_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/6-people/motiontwin-6p-02_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-6p-03",
+      "people": 6,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/6-people/motiontwin-6p-03_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/6-people/motiontwin-6p-03_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/6-people/motiontwin-6p-03_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/6-people/motiontwin-6p-03_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-6p-04",
+      "people": 6,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/6-people/motiontwin-6p-04_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/6-people/motiontwin-6p-04_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/6-people/motiontwin-6p-04_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/6-people/motiontwin-6p-04_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-6p-05",
+      "people": 6,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/6-people/motiontwin-6p-05_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/6-people/motiontwin-6p-05_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/6-people/motiontwin-6p-05_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/6-people/motiontwin-6p-05_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-7p-01",
+      "people": 7,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/7-people/motiontwin-7p-01_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/7-people/motiontwin-7p-01_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/7-people/motiontwin-7p-01_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/7-people/motiontwin-7p-01_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-7p-02",
+      "people": 7,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/7-people/motiontwin-7p-02_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/7-people/motiontwin-7p-02_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/7-people/motiontwin-7p-02_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/7-people/motiontwin-7p-02_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-7p-03",
+      "people": 7,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/7-people/motiontwin-7p-03_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/7-people/motiontwin-7p-03_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/7-people/motiontwin-7p-03_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/7-people/motiontwin-7p-03_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-7p-04",
+      "people": 7,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/7-people/motiontwin-7p-04_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/7-people/motiontwin-7p-04_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/7-people/motiontwin-7p-04_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/7-people/motiontwin-7p-04_driving_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "motiontwin-7p-05",
+      "people": 7,
+      "layout": "landscape",
+      "media": {
+        "gt": {
+          "src": "assets/media/dataset/7-people/motiontwin-7p-05_gt.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/7-people/motiontwin-7p-05_gt_poster.jpg"
+        },
+        "driving": {
+          "src": "assets/media/dataset/7-people/motiontwin-7p-05_driving.mp4",
+          "width": 832,
+          "height": 468,
+          "duration": 10.125,
+          "fps": 24.0,
+          "frameCount": 243,
+          "poster": "assets/posters/dataset/7-people/motiontwin-7p-05_driving_poster.jpg"
         }
       }
     }
