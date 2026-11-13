@@ -358,6 +358,8 @@
     const keys = sample.panelKeys || (teaser ? ['reference', 'driving', 'ours']
       : core.panelKeys(sample, 'all', data.modelOrder));
     const staggered = !teaser && sample.layout === 'landscape' && keys.includes('scail') && keys.length === 7;
+    // IBS ablation panels are shown inline only (no click-to-enlarge).
+    const expandable = sample.source !== 'ibs-ablation';
     if (staggered) card.dataset.comparisonLayout = '3+4';
     grid.style.setProperty('--columns', keys.length);
     const videos = [];
@@ -368,9 +370,11 @@
         : key === 'gt' ? 'GT video' : data.models[key]);
       const panel = element('figure', `media-panel ${key === 'ours' ? 'ours' : ''}`);
       const caption = element('figcaption', 'panel-label', label);
-      const stage = element('button', 'media-stage');
-      stage.type = 'button';
-      stage.setAttribute('aria-label', `Enlarge ${label} — ${teaser ? sample.title : sample.id}`);
+      const stage = element(expandable ? 'button' : 'div', 'media-stage');
+      if (expandable) {
+        stage.type = 'button';
+        stage.setAttribute('aria-label', `Enlarge ${label} — ${teaser ? sample.title : sample.id}`);
+      }
       const isImage = key === 'reference';
       const media = element(isImage ? 'img' : 'video');
       media.width = asset.width;
@@ -394,7 +398,7 @@
       stage.append(media);
       if (teaser) maskPadding(media, asset);
       else panels.push({asset, media, stage, panel});
-      stage.addEventListener('click', () => expandMedia(asset, label, isImage));
+      if (expandable) stage.addEventListener('click', () => expandMedia(asset, label, isImage));
       panel.append(stage, caption);
       grid.append(panel);
     }
