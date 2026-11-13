@@ -45,7 +45,7 @@
   function alignComparison(card, scroll, grid, panels, landscape, frameAspect = null, staggered = false) {
     const rectangles = panels.map(({asset}) => window.PADDING_CROPS?.[asset.src] ||
       {x: 0, y: 0, width: asset.width, height: asset.height});
-    const columns = staggered ? 4 : landscape ? Math.min(3, panels.length) : panels.length;
+    const columns = Number(card.dataset.columns) || (staggered ? 4 : landscape ? Math.min(3, panels.length) : panels.length);
     const layoutRectangles = frameAspect ? rectangles.map(() => ({width: frameAspect, height: 1})) : rectangles;
     panels.forEach(({asset, media, panel}, index) => {
       if (staggered) {
@@ -364,8 +364,8 @@
     const panels = [];
     for (const key of keys) {
       const asset = sample.media[key];
-      const label = key === 'reference' ? 'Reference image' : key === 'driving' ? 'Driving video'
-        : key === 'gt' ? 'GT video' : data.models[key];
+      const label = sample.labels?.[key] || (key === 'reference' ? 'Reference image' : key === 'driving' ? 'Driving video'
+        : key === 'gt' ? 'GT video' : data.models[key]);
       const panel = element('figure', `media-panel ${key === 'ours' ? 'ours' : ''}`);
       const caption = element('figcaption', 'panel-label', label);
       const stage = element('button', 'media-stage');
@@ -401,7 +401,9 @@
     scroll.append(grid);
     card.append(scroll);
     if (!teaser) {
-      const addedOrUpdated = sample.source === 'additional-20260923' ||
+      // IBS ablation rows keep all four panels on one line so w/ and w/o IBS sit side by side.
+      if (sample.source === 'ibs-ablation') card.dataset.columns = String(panels.length);
+      const addedOrUpdated = sample.source === 'additional-20260923' || sample.source === 'ibs-ablation' ||
         (sample.source === 'group' && sample.media.multianimate) || main;
       const landscape = sample.layout === 'landscape';
       // A fixed 16:9 box gives 832x448 and 832x480 outputs different visible
@@ -475,6 +477,10 @@
       dataset.append(makePeopleGroup({people, samples: datasetSamples.filter(sample => sample.people === people)}));
     }
     document.querySelector('#dataset-list').replaceChildren(dataset);
+    // IBS ablation: same reference, driving video and sampling settings; only the training loss differs.
+    const ibs = document.createDocumentFragment();
+    (data.ibsSamples || []).forEach(sample => ibs.append(makeCard(sample, false, true)));
+    document.querySelector('#ibs-list').replaceChildren(ibs);
   }
   document.addEventListener('visibilitychange', () => { if (document.hidden) pauseAll(); });
   window.addEventListener('pagehide', () => pauseAll());

@@ -6,7 +6,8 @@ window.SUPPLEMENT_DATA = {
     "scail2": "SCAIL2",
     "wan-animate-2": "Wan-Animate-2",
     "steadydancer": "SteadyDancer",
-    "wan22animate": "Wan2.2 Animate"
+    "wan22animate": "Wan2.2 Animate",
+    "woibs": "w/o IBS"
   },
   "modelOrder": [
     "steadydancer",
@@ -3042,6 +3043,263 @@ window.SUPPLEMENT_DATA = {
           "fps": 24.0,
           "frameCount": 243,
           "poster": "assets/posters/dataset/7-people/motiontwin-7p-05_driving_poster.jpg"
+        }
+      }
+    }
+  ],
+  "ibsSamples": [
+    {
+      "id": "ibs-01",
+      "source": "ibs-ablation",
+      "people": 7,
+      "layout": "landscape",
+      "exampleLabel": "Ex 1",
+      "panelKeys": [
+        "reference",
+        "driving",
+        "ours",
+        "woibs"
+      ],
+      "labels": {
+        "ours": "w/ IBS (Ours)",
+        "woibs": "w/o IBS"
+      },
+      "media": {
+        "reference": {
+          "src": "assets/media/ibs-ablation/ibs-01_7-people_reference.png",
+          "width": 1920,
+          "height": 1080
+        },
+        "driving": {
+          "src": "assets/media/ibs-ablation/ibs-01_7-people_driving.mp4",
+          "width": 1280,
+          "height": 720,
+          "duration": 5.0625,
+          "fps": 16,
+          "frameCount": 81,
+          "poster": "assets/posters/ibs-ablation/ibs-01_7-people_driving_poster.jpg"
+        },
+        "ours": {
+          "src": "assets/media/ibs-ablation/ibs-01_7-people_ours.mp4",
+          "width": 832,
+          "height": 448,
+          "duration": 5.0625,
+          "fps": 16,
+          "frameCount": 81,
+          "poster": "assets/posters/ibs-ablation/ibs-01_7-people_ours_poster.jpg"
+        },
+        "woibs": {
+          "src": "assets/media/ibs-ablation/ibs-01_7-people_woibs.mp4",
+          "width": 832,
+          "height": 448,
+          "duration": 5.0625,
+          "fps": 16,
+          "frameCount": 81,
+          "poster": "assets/posters/ibs-ablation/ibs-01_7-people_woibs_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "ibs-02",
+      "source": "ibs-ablation",
+      "people": 7,
+      "layout": "landscape",
+      "exampleLabel": "Ex 2",
+      "panelKeys": [
+        "reference",
+        "driving",
+        "ours",
+        "woibs"
+      ],
+      "labels": {
+        "ours": "w/ IBS (Ours)",
+        "woibs": "w/o IBS"
+      },
+      "media": {
+        "reference": {
+          "src": "assets/media/ibs-ablation/ibs-02_7-people_reference.png",
+          "width": 1920,
+          "height": 1080
+        },
+        "driving": {
+          "src": "assets/media/ibs-ablation/ibs-02_7-people_driving.mp4",
+          "width": 1280,
+          "height": 720,
+          "duration": 2.7,
+          "fps": 30,
+          "frameCount": 81,
+          "poster": "assets/posters/ibs-ablation/ibs-02_7-people_driving_poster.jpg"
+        },
+        "ours": {
+          "src": "assets/media/ibs-ablation/ibs-02_7-people_ours.mp4",
+          "width": 832,
+          "height": 448,
+          "duration": 2.7,
+          "fps": 30,
+          "frameCount": 81,
+          "poster": "assets/posters/ibs-ablation/ibs-02_7-people_ours_poster.jpg"
+        },
+        "woibs": {
+          "src": "assets/media/ibs-ablation/ibs-02_7-people_woibs.mp4",
+          "width": 832,
+          "height": 448,
+          "duration": 2.7,
+          "fps": 30,
+          "frameCount": 81,
+          "poster": "assets/posters/ibs-ablation/ibs-02_7-people_woibs_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "ibs-03",
+      "source": "ibs-ablation",
+      "people": 7,
+      "layout": "landscape",
+      "exampleLabel": "Ex 3",
+      "panelKeys": [
+        "reference",
+        "driving",
+        "ours",
+        "woibs"
+      ],
+      "labels": {
+        "ours": "w/ IBS (Ours)",
+        "woibs": "w/o IBS"
+      },
+      "media": {
+        "reference": {
+          "src": "assets/media/ibs-ablation/ibs-03_7-people_reference.png",
+          "width": 1920,
+          "height": 1080
+        },
+        "driving": {
+          "src": "assets/media/ibs-ablation/ibs-03_7-people_driving.mp4",
+          "width": 1280,
+          "height": 720,
+          "duration": 2.7,
+          "fps": 30,
+          "frameCount": 81,
+          "poster": "assets/posters/ibs-ablation/ibs-03_7-people_driving_poster.jpg"
+        },
+        "ours": {
+          "src": "assets/media/ibs-ablation/ibs-03_7-people_ours.mp4",
+          "width": 832,
+          "height": 448,
+          "duration": 2.7,
+          "fps": 30,
+          "frameCount": 81,
+          "poster": "assets/posters/ibs-ablation/ibs-03_7-people_ours_poster.jpg"
+        },
+        "woibs": {
+          "src": "assets/media/ibs-ablation/ibs-03_7-people_woibs.mp4",
+          "width": 832,
+          "height": 448,
+          "duration": 2.7,
+          "fps": 30,
+          "frameCount": 81,
+          "poster": "assets/posters/ibs-ablation/ibs-03_7-people_woibs_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "ibs-04",
+      "source": "ibs-ablation",
+      "people": 7,
+      "layout": "landscape",
+      "exampleLabel": "Ex 4",
+      "panelKeys": [
+        "reference",
+        "driving",
+        "ours",
+        "woibs"
+      ],
+      "labels": {
+        "ours": "w/ IBS (Ours)",
+        "woibs": "w/o IBS"
+      },
+      "media": {
+        "reference": {
+          "src": "assets/media/ibs-ablation/ibs-04_7-people_reference.png",
+          "width": 1920,
+          "height": 1080
+        },
+        "driving": {
+          "src": "assets/media/ibs-ablation/ibs-04_7-people_driving.mp4",
+          "width": 1280,
+          "height": 720,
+          "duration": 5.0625,
+          "fps": 16,
+          "frameCount": 81,
+          "poster": "assets/posters/ibs-ablation/ibs-04_7-people_driving_poster.jpg"
+        },
+        "ours": {
+          "src": "assets/media/ibs-ablation/ibs-04_7-people_ours.mp4",
+          "width": 832,
+          "height": 448,
+          "duration": 5.0625,
+          "fps": 16,
+          "frameCount": 81,
+          "poster": "assets/posters/ibs-ablation/ibs-04_7-people_ours_poster.jpg"
+        },
+        "woibs": {
+          "src": "assets/media/ibs-ablation/ibs-04_7-people_woibs.mp4",
+          "width": 832,
+          "height": 448,
+          "duration": 5.0625,
+          "fps": 16,
+          "frameCount": 81,
+          "poster": "assets/posters/ibs-ablation/ibs-04_7-people_woibs_poster.jpg"
+        }
+      }
+    },
+    {
+      "id": "ibs-05",
+      "source": "ibs-ablation",
+      "people": 7,
+      "layout": "landscape",
+      "exampleLabel": "Ex 5",
+      "panelKeys": [
+        "reference",
+        "driving",
+        "ours",
+        "woibs"
+      ],
+      "labels": {
+        "ours": "w/ IBS (Ours)",
+        "woibs": "w/o IBS"
+      },
+      "media": {
+        "reference": {
+          "src": "assets/media/ibs-ablation/ibs-05_7-people_reference.png",
+          "width": 1920,
+          "height": 1080
+        },
+        "driving": {
+          "src": "assets/media/ibs-ablation/ibs-05_7-people_driving.mp4",
+          "width": 1280,
+          "height": 720,
+          "duration": 2.7,
+          "fps": 30,
+          "frameCount": 81,
+          "poster": "assets/posters/ibs-ablation/ibs-05_7-people_driving_poster.jpg"
+        },
+        "ours": {
+          "src": "assets/media/ibs-ablation/ibs-05_7-people_ours.mp4",
+          "width": 832,
+          "height": 448,
+          "duration": 2.7,
+          "fps": 30,
+          "frameCount": 81,
+          "poster": "assets/posters/ibs-ablation/ibs-05_7-people_ours_poster.jpg"
+        },
+        "woibs": {
+          "src": "assets/media/ibs-ablation/ibs-05_7-people_woibs.mp4",
+          "width": 832,
+          "height": 448,
+          "duration": 2.7,
+          "fps": 30,
+          "frameCount": 81,
+          "poster": "assets/posters/ibs-ablation/ibs-05_7-people_woibs_poster.jpg"
         }
       }
     }
