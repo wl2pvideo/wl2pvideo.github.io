@@ -116,7 +116,6 @@ h2 {
 }
 .comparison-card { min-width: 0; margin: 1.5rem 0 2rem; padding: 0; --stage-height: 320px; }
 .comparison-card.landscape { --stage-height: 220px; }
-.section-note { font-size: 0.9rem; color: var(--muted-2); margin: 0.75rem 0 0; }
 .main-comparison-list { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.25rem; margin: 1.5rem 0 3rem; }
 .main-comparison-list > .comparison-card { grid-column: 1 / -1; margin: 0; }
 .main-comparison-list > .comparison-card + .comparison-card { padding-top: 1.25rem; border-top: 1px solid var(--border); }
